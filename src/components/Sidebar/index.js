@@ -1,6 +1,6 @@
 import './index.scss'
 import {Link, NavLink} from 'react-router-dom'
-import LogoW from '../../assets/images/vecteezy_w-letter-business-logo-design-vector_.png'
+import LogoW from '../../assets/images/logo.svg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faHome, faUser,} from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin, faSkype } from '@fortawesome/free-brands-svg-icons'

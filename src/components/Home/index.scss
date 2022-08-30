@@ -40,13 +40,16 @@
     }
 
 		img{
-			width: 32px;
-      margin-left: 20px;
+			width: 60px;
+      margin-left: 10px;
       opacity: 0;
-      height: auto;
+      margin-top: -15px;
+      position: absolute;
+      height: 85px;
       animation: rotateIn 1s linear both;
       animation-delay: 1.4s;
 		}
+
 	}
   h2 {
     color: #8d8d8d;

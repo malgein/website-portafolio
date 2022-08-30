@@ -1,7 +1,7 @@
-
 import { useEffect, useState } from 'react'
-import logoTitle from '../../assets/images/the-initials-w-logo-is-simple-and-modern8868-free-vector.webp'
+import logoTitle from '../../assets/images/logo.svg'
 import AnimatedLetters from '../AnimatedLetters'
+import Logo from './Logo'
 import {Link} from 'react-router-dom'
 import './index.scss'
 
@@ -9,7 +9,7 @@ const Home =() =>{
 
 	const [letterClass, setLetterClass] = useState('text-animate text-animate-hover')
 
-  const nameArray = ['i' , 'l' , 'm' , 'e' , 'r' ]
+  const nameArray = ['','','','','','','','i' , 'l' , 'm' , 'e' , 'r' ]
   const jobArray = [
     'w',
     'e',
@@ -55,6 +55,7 @@ const Home =() =>{
 					CONTACT ME
 				</Link>
 			</div>
+      <Logo />
 		</div>
 	)
 }
