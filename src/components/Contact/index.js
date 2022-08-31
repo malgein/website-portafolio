@@ -1,13 +1,13 @@
 import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 
 const Contact = () => {
-  const [letterClass, setLetterClass] = useState('text-animate')
+  const [letterClass, setLetterClass] = useState('text-animate text-animate-hover')
   const form = useRef()
 
  
@@ -15,7 +15,7 @@ const Contact = () => {
     e.preventDefault()
 
     emailjs
-      .sendForm('gmail', 'template_5khu81x', form.current, 'X4oXGvXKYDaaJaiUb')
+      .sendForm('service_lt1wr2q', 'template_5khu81x', form.current, 'X4oXGvXKYDaaJaiUb')
       .then(
         () => {
           alert('Message successfully sent!')
@@ -39,9 +39,9 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I am interested in freelance opportunities - especially on ambitious
-            or large projects. However, if you have any other requests or
-            questions, don't hesitate to contact me using below form either.
+          I am very interested in any job opportunity that requires talent 
+          and a lot of dedication, do not hesitate to write me, 
+          where I come from we love to solve problems and provide solutions to everything no matter how difficult the situation is
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
@@ -80,20 +80,20 @@ const Contact = () => {
           </div>
         </div>
         <div className="info-map">
-          Slobodan Gajić,
+          Wilmer Pocaterra
           <br />
-          Serbia,
+          Venezuela,
           <br />
-          Branka RadiČevića 19, 22000 <br />
-          Sremska Mitrovica <br />
+          Maracaibo, estado Zulia
           <br />
-          <span>freelancerslobodan@gmail.com</span>
+          <br />
+          <span>malgein17@gmail.com</span>
         </div>
         <div className="map-wrap">
-          <MapContainer center={[44.96366, 19.61045]} zoom={13}>
+        <MapContainer center={[10.671288, -71.674868]} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[44.96366, 19.61045]}>
-              <Popup>Sloba lives here, come over for a cup of coffee :)</Popup>
+            <Marker position={[10.671288, -71.674868]}>
+              <Popup>Wilmer lives here, come over for a cup of coffee :)</Popup>
             </Marker>
           </MapContainer>
         </div>
