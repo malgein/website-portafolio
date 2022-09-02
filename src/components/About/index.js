@@ -30,18 +30,17 @@ const About = () => {
               />
           </h1>
           <p>
-            I'm a very ambitious front-end developer looking for a role in an
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
+          I am a front-end developer, I specialize in the structure and 
+          creation of UI, currently learning back-end development for a 
+          better contribution to those who want to acquire my services, I am looking for job opportunities where I can demonstrate my value in conjunction with other colleagues who share my vision
           </p>
           <p align="LEFT">
-            I'm quiet confident, naturally curious, and perpetually working on
-            improving my chops one design problem at a time.
+          I have a critical mind, open thinking, if you have a problem I am part 
+          of the solution, I love to learn and work as a team
           </p>
           <p>
-            If I need to define myself in one sentence that would be a family
-            person, father of a beautiful daughter, a sports fanatic,
-            photography enthusiast, and tech-obsessed!!!
+          I am a developer who loves programing, computers, and all that kind of tecnologies, 
+          that is my passion after health sciences, my speciality is front-end, I love to desing an create amazing aplications, it's really great create something by giving instrucctions to a machine.
           </p>
         </div>
         <div className="stage-cube-cont">

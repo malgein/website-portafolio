@@ -88,6 +88,8 @@ const Contact = () => {
           <br />
           <br />
           <span>malgein17@gmail.com</span>
+          <br/>
+          <span>Phone number: 58-4246250714</span>
         </div>
         <div className="map-wrap">
         <MapContainer center={[10.671288, -71.674868]} zoom={13}>
