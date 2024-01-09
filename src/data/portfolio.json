@@ -1,18 +1,25 @@
 {
-    "portafolio": [
+    "portfolio": [
         {
-            "cover": "/portafolio/pokemon/pokemon.png",
+            "cover": "/portfolio/pokemon/pokemon.png",
             "title": "Pokex app",
             "description": "React, JSX, local storage, firebase",
             "url": "https://pokex-2022-560c1.web.app/",
             "Code": "https://github.com/malgein/pokex-app"
         },
         {
-            "cover": "/portafolio/Rick-and-morty/RickandMorty.png",
+            "cover": "/portfolio/Rick-and-morty/RickandMorty.png",
             "title": "Rick and Morty website",
             "description": "React, JSX",
             "url": "https://lucky-sawine-899db2.netlify.app/",
             "Code": "https://github.com/malgein/rick-morty-course"
+        },
+        {
+            "cover": "/portfolio/Machine-random-quotes/machinerandomquotes.png",
+            "title": "Machine random quote",
+            "description": "React, JSX",
+            "url": "https://sparkling-paletas-f88e16.netlify.app/",
+            "Code": "https://github.com/malgein/random-machine-quote"
         }
     ]
 }

@@ -26,8 +26,8 @@ const Sidebar = () =>{
 				</NavLink>
 				<NavLink
           activeclassname="active"
-          className="portafolio-link"
-          to="/portafolio">
+          className="portfolio-link"
+          to="/portfolio">
           <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
         </NavLink>
 			</nav>
